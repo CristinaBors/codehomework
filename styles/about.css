@@ -108,11 +108,12 @@ header > .header-right-column{
 
 .content-wrapper {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     margin: 0px;
     padding-top: 50px;
     padding-left: 50px;
+
 }
 
 .introduction-text p {
@@ -120,11 +121,7 @@ header > .header-right-column{
     line-height: 35px;
     font-size: 30px;
     color: azure;
-    width: 800px;
-    
 }
-
-
 
 .introduction-text :nth-child(2) {
     font-family: 'Titillium Web', sans-serif;
@@ -151,6 +148,22 @@ header > .header-right-column{
     border-radius: 4px;
     border: 1px solid #2e2b2b;
     transition: 0.3s;
+}
+
+.presentation-immage-wrapper {
+    display: flex;
+    justify-content: right;
+}
+.presentation-immage-wrapper > p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    color: azure;
+    
+}
+
+.presentation-immage-wrapper > img {
+    width: 100%;
+    float: left;
 }
 
 .content-wrapper-bottom >.bottom-row{
