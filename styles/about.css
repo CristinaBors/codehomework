@@ -1,10 +1,6 @@
 .body {
     margin: 0px;
-    font-family: 'Roboto Slab', sans-serif;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 
@@ -13,20 +9,15 @@ h1,h2,h3,h4,h5,h6 {
     height: 95px;
     color: #cbcbcb;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 }
 
-header > .header-right-column{
-    display: flex;
-    align-items: flex-start;
-}
-
 .header > .header-right-column >.logo img{
-        width: 180px;
+        width: 280px;
         height: 100%;
-        margin: 10px;
+        margin: 30px;
         
 }
 
@@ -34,13 +25,14 @@ header > .header-right-column{
     font-family: "Roboto Slab", sans-serif;
     color: #cea135;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .header > .header-center-column {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-    width: 500px;
+    width: 650px;
     margin-left: 10px;
     margin-right: 10px;
     
@@ -74,7 +66,7 @@ header > .header-right-column{
     font-weight: bolder;
 }
 .links-wrapper > .nav-link a > .spark{
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: white;
     font-size: 20px;
 }
@@ -90,16 +82,19 @@ header > .header-right-column{
 .btn {
     background-color: rgb(60, 55, 55);
     color: #f7f7f7;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     padding: 15px 30px;
     border-radius: 7px;
     outline: none;
     transition: 0.3s;
 }
-.btn :active {
-    box-shadow: 5px 5px 30px rgba(89, 85, 85, 0.4);
+
+.header-btn-wrapper  i{
+    padding: 20px;
+    
 }
+
 .content-wrapper {
     padding: 0px 30px;
     background: hsl(223deg 14% 20%);
@@ -108,20 +103,18 @@ header > .header-right-column{
 .content-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items:flex-start;
-    
-
+    align-items:flex-start;  
 }
 
 .introduction-text p {
     letter-spacing: 3px;
-    font-size: 45px;
-    color: azure;
-    padding: 20px 0px;
+    font-size: 50px;
+    color: white;
+    padding: 20px 90px 20px 20px;
 }
 
 .introduction-text :nth-child(2) {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 35px;
 }
 .signup-learnmore-btn {
@@ -130,7 +123,7 @@ header > .header-right-column{
 .btn-sign-up {
     background-color: rgb(95, 166, 95);
     color: #1a1111;
-    font-size: 25px;
+    font-size: 35px;
     font-weight:bold;
     padding: 25px 40px;
     border-radius: 4px;
@@ -142,7 +135,7 @@ header > .header-right-column{
 .btn-learn {
     background-color: #1a1111;
     color: #cbcbcb;
-    font-size: 25px;
+    font-size: 35px;
     font-weight:bold;
     padding: 25px 40px;
     border-radius: 4px;
@@ -163,18 +156,18 @@ header > .header-right-column{
 }
 
 .presentation-immage-wrapper p > .project {
-    color: blue;
+    color: hsl(196deg 100% 73%);
 }
 
 .presentation-immage-wrapper  img {
-    width: 590px;
-    height: 490px;
+    width: 700px;
+    height: 650px;
 }
 
 
 .bottom-row{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: space-around;
     color: aliceblue;
     padding: 10px 50px;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(0.64, #37373d));
@@ -189,7 +182,8 @@ header > .header-right-column{
 
 .bottom-row {
     padding: 20px 20px;
-    border: 0px;   
+    border: 0px; 
+    font-size: 25px;  
 }
 
 .bottom-line {
